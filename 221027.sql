@@ -1,0 +1,9 @@
+SELECT MD_NO,MD_CONTENT,MD_PRICE,MD_IMAGE,MD_DETAIL_IMAGE
+        ,MD_COST,MD_CATEGORY,MD_DISCOUNT,MD_NAME,MD_BRAND,STORE_NO
+        FROM TB_AMD 
+        
+        CREATE SEQUENCE MD_NO_SEQ
+        
+        
+        edit TB_AMD 
+        

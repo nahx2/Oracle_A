@@ -118,13 +118,13 @@ edit TB_ORDER
          INSERT ALL
         INTO TB_ORDER (ORDER_NO, MEMBER_NO, CART_NO, ORDER_PAYMENT
         , ORDER_DATE, ORDER_AMOUNT, ORDER_USED_POINT)
-        VALUES('o_545', 1, '1', 500
+        VALUES('o_54577', 1, '1', 500
         ,to_char(sysdate, 'YYYY-MM-DD HH24:MI:SS'), 500, 0)
         INTO TB_PURCHASE (PURCHASE_NO, ORDER_NO, PURCHASE_METHOD)
-        VALUES( 'po_545', 'o_545', 'card')
+        VALUES( 'po_54577', 'o_545', 'card')
          INTO TB_ORDER_DE   (ORDER_DE_NO, ORDER_NO, ORDER_DE_QUANTITY
          ,ORDER_DE_PRICE,ORDER_DE_CANCEL)
-        VALUES( 'do_545', 'o_545', 5,500,'N')
+        VALUES( 'do_54577', 'o_545', 5,500,'N')
          INTO TB_DELIVERY  (DELIVERY_STATUS, ORDER_NO)
         VALUES( '상품준비중', 'o_545')
         SELECT * FROM DUAL
